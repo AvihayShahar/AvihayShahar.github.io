@@ -74,17 +74,14 @@
   <!-- Header / Navigation -->
   <header class="sticky top-0 z-40 bg-white/85 backdrop-blur-md border-b border-slate-200/80 transition-all">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-      <div class="flex items-center gap-3">
-        <span class="text-2xl">🩺</span>
-        <div class="flex flex-col">
-          <span class="font-heading font-black text-lg sm:text-xl text-slate-900 tracking-tight">יומן דרך</span>
-          <span class="text-xs text-slate-500 font-medium">המסלול ל-4 שנתי | מאת אביחי</span>
-        </div>
+      <div class="flex items-center gap-2 bg-teal-50 border border-teal-200/80 text-teal-900 text-xs sm:text-sm font-semibold px-3.5 py-1.5 rounded-full shadow-sm">
+        <span>📅</span>
+        <span>יולי 2025 – יולי 2026: שנה של סיר לחץ, החלטות וקבלה</span>
       </div>
       
       <div class="flex items-center gap-2 sm:gap-3">
-        <a href="#tactical-section" class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-bold bg-amber-100 hover:bg-amber-200 text-amber-900 px-3 py-1.5 rounded-full transition-colors">
-          <span>דלגו מתוקים</span>
+        <a href="#tactical-section" class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-bold bg-amber-100 hover:bg-amber-200 text-amber-950 px-3.5 py-1.5 rounded-full transition-colors">
+          <span>שחרר אותנו אבא, איפה הג׳וס!?</span>
           <span>🎃</span>
         </a>
         <a href="#interactive-timeline" class="text-xs sm:text-sm font-semibold text-teal-700 hover:text-teal-800 px-2.5 py-1.5 rounded-lg hover:bg-teal-50 transition">
@@ -94,45 +91,16 @@
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="relative overflow-hidden pt-12 pb-14 sm:pt-16 sm:pb-20 border-b border-slate-200 bg-gradient-to-b from-white to-slate-50">
-    <div class="max-w-3xl mx-auto px-4 sm:px-6 text-center">
-      <div class="inline-flex items-center gap-2 bg-teal-50 border border-teal-200 text-teal-800 text-xs sm:text-sm font-semibold px-3 py-1 rounded-full mb-6">
-        <span>📅</span>
-        <span>יולי 2025 – יולי 2026: שנה של סיר לחץ, החלטות וקבלה</span>
-      </div>
-
-      <h1 class="font-heading font-black text-3xl sm:text-5xl text-slate-900 leading-tight mb-6">
-        מהנדס תוכנה בן 30, חתונה אחת, ודרך בלתי מתפשרת ללימודי רפואה
-      </h1>
-
-      <p class="text-lg sm:text-xl text-slate-600 leading-relaxed max-w-2xl mx-auto font-light">
-        ״להיות רופא מומחה זה סיפור של 10 שנים. לכן יותר נכון למסגר את התהליך בראש כדרך – רציפה, גמישה ופלואידית״.
-      </p>
-
-      <!-- Badges summary -->
-      <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
-        <div class="bg-white border border-slate-200 rounded-xl px-4 py-2 shadow-sm text-right">
-          <div class="text-xs text-slate-500 font-semibold">מבחן ידע מועד א' (ת"א)</div>
-          <div class="text-xl font-heading font-black text-teal-600">333</div>
-        </div>
-        <div class="bg-white border border-slate-200 rounded-xl px-4 py-2 shadow-sm text-right">
-          <div class="text-xs text-slate-500 font-semibold">מבחן ידע מועד א' (אריאל)</div>
-          <div class="text-xl font-heading font-black text-teal-600">326</div>
-        </div>
-        <div class="bg-white border border-slate-200 rounded-xl px-4 py-2 shadow-sm text-right">
-          <div class="text-xs text-slate-500 font-semibold">תוצאה סופית</div>
-          <div class="text-xl font-heading font-black text-emerald-600">התקבל לאריאל 🩺</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Main Article Content -->
-  <main class="max-w-3xl mx-auto px-4 sm:px-6 py-12">
+  <main class="max-w-3xl mx-auto px-4 sm:px-6 pt-10 pb-16">
     
     <article class="space-y-8 text-base sm:text-lg text-slate-700 leading-relaxed">
       
+      <!-- Main Title -->
+      <div>
+        <h1 class="font-heading font-black text-3xl sm:text-5xl text-slate-900 tracking-tight">יומן דרך</h1>
+      </div>
+
       <!-- Intro Greeting -->
       <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm">
         <p class="font-medium text-slate-900 text-lg sm:text-xl mb-4">
@@ -150,13 +118,13 @@
       </div>
 
       <!-- Quick skip Callout -->
-      <div id="skip-box" class="bg-amber-50/90 border-r-4 border-amber-500 p-5 rounded-xl flex items-center justify-between gap-4">
+      <div id="skip-box" class="bg-amber-50/90 border-r-4 border-amber-500 p-5 rounded-xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
         <div>
           <h3 class="font-bold text-amber-950 text-base sm:text-lg">רוצים לצלול ישר לטקטיקה?</h3>
           <p class="text-sm text-amber-900/80 mt-0.5">במקרה שלא מעניין אתכם יומן הדרך ובא לכם לדלג ישר לבשר ולטיפים:</p>
         </div>
-        <a href="#tactical-section" class="whitespace-nowrap px-4 py-2 bg-amber-500 hover:bg-amber-600 text-white font-bold rounded-lg shadow-sm transition">
-          תפאדל -> דלגו מתוקים 🎃
+        <a href="#tactical-section" class="whitespace-nowrap px-4 py-2.5 bg-amber-500 hover:bg-amber-600 text-white font-bold rounded-lg shadow-sm transition">
+          שחרר אותנו אבא, איפה הג׳וס!? 🎃
         </a>
       </div>
 
